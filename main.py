@@ -117,11 +117,11 @@ os.system('cls')
 #------------------------------------------------------------------------------
 #Шахматная доска
 print('\nШахматная доска')
-a1 = int(input())
-b1 = int(input())
-a2 = int(input())
-b2 = int(input())
-if (a1 + b1 + a2 + b2) % 2 == 0:
+x1 = int(input())
+y1 = int(input())
+x2 = int(input())
+y2 = int(input())
+if (x1 + y1 + x2 + y2) % 2 == 0:
     print('YES')
 else:
     print('NO')
@@ -159,11 +159,11 @@ os.system('cls')
 #------------------------------------------------------------------------------
 #Ход ладьи
 print('\nХод ладьи')
-a1 = int(input())
-b1 = int(input())
-a2 = int(input())
-b2 = int(input())
-if a1 == a2 or b1 == b2:
+x1 = int(input())
+y1 = int(input())
+x2 = int(input())
+y2 = int(input())
+if x1 == x2 or y1 == y2:
     print('YES')
 else:
     print('NO')
@@ -203,5 +203,4 @@ else:
 
 input()
 os.system('cls')
-
 #------------------------------------------------------------------------------
